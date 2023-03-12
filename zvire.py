@@ -10,6 +10,8 @@ class Zvire:
             self.leta = False
 
     def nakrm(self, kolik):
+        if kolik > 5:
+            raise Exception("Nemuze snist vice než 5 kg najednou.")
         self._vaha += self.kolik
         if self._vaha >= 9:
             self.leta = False

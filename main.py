@@ -8,6 +8,12 @@ kobra.set_vaha(10)
 kobra.vypis()
 kobra.mluv()
 
+try:
+    kobra.nakrm(6)
+    print("Stav létavisti: {}".format(kobra.leta))
+except Exception as e:
+    print(e)
+
 gargamel = Pes("Laso Apsa", 10, "růžové", "bílý")
 gargamel.vypis()
 gargamel.set_vaha(8)
