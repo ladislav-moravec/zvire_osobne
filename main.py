@@ -1,6 +1,11 @@
+import enum
+
 from zvire import Zvire
 from pes import Pes
 from kocka import Kocka
+from clovek_zvire import ClovekZvire
+
+
 
 kobra = Zvire("Kobra královská", 8, "černá")
 kobra.vypis()
