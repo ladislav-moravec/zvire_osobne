@@ -24,3 +24,6 @@ class Zvire:
             self.leta = True
         else:
             self.leta = False
+
+    def mluv(self):
+        print("...")
